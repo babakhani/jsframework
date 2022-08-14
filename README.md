@@ -24,7 +24,6 @@ https://preactjs.com/guide/v10/getting-started#best-practices-powered-by-preact-
 ```
 npx preact-cli create default preact-app
 
-
 cd preact-app
 
 npm run dev
