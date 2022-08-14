@@ -1,3 +1,10 @@
+# UILAB
+
+### JavaScript UI frameworks playground
+
+A simple playground to work with popular JavaScript UI frameworks
+
+
 ## Install React
 
 from  https://reactjs.org/docs/create-a-new-react-app.html
@@ -17,7 +24,7 @@ https://nextjs.org/docs
 npx create-next-app@latest
 ```
 
-## Install Reactnative
+## Install ReactNative
 
 https://reactnative.dev/docs/environment-setup
 
