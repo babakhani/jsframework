@@ -70,3 +70,30 @@ npm install
 npm run dev
 
 ```
+
+## Install NestJs
+
+https://docs.nestjs.com/
+
+```
+npm i -g @nestjs/cli
+
+nest new nest-app
+
+npm run start
+```
+
+## Install Meteor
+
+https://guide.meteor.com/
+
+```
+meteor create meteor-app
+
+cd meteor-app
+
+meteor npm install
+
+meteor
+```
+
