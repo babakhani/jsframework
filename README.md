@@ -1,22 +1,47 @@
-# UILAB
+# UiLab
 
 ### JavaScript UI frameworks playground
 
-A simple playground to work with popular JavaScript UI frameworks
+its my playground to work with popular JavaScript UI frameworks.
+
+All projects installed based on their tutorials and everything kept same as a
+starter project on the `main` branch
+
+Tested on:
+
+- node v16.16.0
+
+- npm 8.15.0
+
+- npx 8.15.0
 
 
-## Install React
+## Preact
+
+https://preactjs.com/guide/v10/getting-started#best-practices-powered-by-preact-cli
+
+```
+npx preact-cli create default my-project
+
+npx preact-cli create preact-app
+
+cd preact-app
+
+npm run dev
+```
+
+
+## React
 
 from  https://reactjs.org/docs/create-a-new-react-app.html
 
 ```
 npx create-react-app my-app
 
-
 npm start
 ```
 
-## Install Next
+## Next
 
 https://nextjs.org/docs
 
@@ -24,17 +49,19 @@ https://nextjs.org/docs
 npx create-next-app@latest
 ```
 
-## Install ReactNative
+## ReactNative
 
 https://reactnative.dev/docs/environment-setup
 
 ```
 npm install -g expo-cli
+
 expo init AwesomeProject
+
 npm start
 ```
 
-## Install Nuxt 3
+## Nuxt3
 
 https://v3.nuxtjs.org/getting-started/quick-start/
 
@@ -44,10 +71,9 @@ npx nuxi init nuxt-app
 yarn install
 
 yarn dev -o
-
 ```
 
-## Install Vue3
+## Vue3
 
 https://vuejs.org/guide/quick-start.html#with-build-tools
 
@@ -55,11 +81,11 @@ https://vuejs.org/guide/quick-start.html#with-build-tools
 npm init vue@latest
 
 npm install
-npm run dev
 
+npm run dev
 ```
 
-## Install Svelte
+## Svelte
 
 https://svelte.dev/blog/the-easiest-way-to-get-started
 
@@ -67,11 +93,11 @@ https://svelte.dev/blog/the-easiest-way-to-get-started
 npx degit sveltejs/template my-svelte-project
 
 npm install
-npm run dev
 
+npm run dev
 ```
 
-## Install NestJs
+## NestJs
 
 https://docs.nestjs.com/
 
@@ -83,7 +109,7 @@ nest new nest-app
 npm run start
 ```
 
-## Install Meteor
+## Meteor
 
 https://guide.meteor.com/
 
@@ -97,3 +123,30 @@ meteor npm install
 meteor
 ```
 
+
+## Ember
+
+https://guides.emberjs.com/release/tutorial/part-1/orientation/
+
+
+```
+npm install -g ember-cli
+
+ember new ember-app --lang en
+```
+
+## Angular
+
+https://angular.io/guide/setup-local
+
+```
+npm install -g @angular/cli
+
+ng new angular-app
+
+cd angular-app
+
+ng serve --open
+```
+
+THE END
