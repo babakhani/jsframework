@@ -2,7 +2,7 @@
 
 ### JavaScript UI frameworks playground
 
-its my playground to work with popular JavaScript UI frameworks.
+Its my playground to work with popular JavaScript UI frameworks.
 
 All projects installed based on their tutorials and everything kept same as a
 starter project on the `main` branch
@@ -15,15 +15,15 @@ Tested on:
 
 - npx 8.15.0
 
+At Sun Aug 14 2022
 
 ## Preact
 
 https://preactjs.com/guide/v10/getting-started#best-practices-powered-by-preact-cli
 
 ```
-npx preact-cli create default my-project
+npx preact-cli create default preact-app
 
-npx preact-cli create preact-app
 
 cd preact-app
 
@@ -148,5 +148,6 @@ cd angular-app
 
 ng serve --open
 ```
+
 
 THE END
