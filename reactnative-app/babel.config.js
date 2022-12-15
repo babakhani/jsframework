@@ -1,7 +1,11 @@
 module.exports = function(api) {
-  api.cache(true);
+  api.cache(false);
   return {
-    plugins: ['react-native-reanimated/plugin'],
+    plugins: [
+      '@realm/babel-plugin',
+      ['@babel/plugin-proposal-decorators', { legacy: true }],
+      'react-native-reanimated/plugin',
+    ],
     presets: ['babel-preset-expo'],
   };
 };

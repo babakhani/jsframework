@@ -11,6 +11,8 @@ const Stack = createNativeStackNavigator();
 const PrivateRoutes = () => {
   return (
    <Stack.Navigator
+    gestureEnabled={true}
+    animationEnabled={true}
     screenOptions={{
       headerStyle: {
         backgroundColor: 'blue',

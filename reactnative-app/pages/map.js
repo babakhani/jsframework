@@ -1,5 +1,5 @@
-import {Button, View, Text } from 'react-native'
 import Svg from '../components/sample-svg.js'
+import {Button, View, Text } from 'react-native'
 
 function MapPage ({ navigation }) {
   return (

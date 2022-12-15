@@ -11,6 +11,7 @@ import { createDrawerNavigator } from '@react-navigation/drawer'
 import HomePage from './pages/home.js'
 import KitchenPage from './pages/kitchen.js'
 import SettingPage from './pages/setting.js'
+import DbPage from './pages/db.js'
 
 //import PrivateRoutes from './lib/router.js'
 import PrivateRoutes from './lib/router.js'
@@ -47,6 +48,18 @@ const App = () => {
             headerShown:  true,
             initialRouteName: 'setting',
             tabBarLabel: 'setting',
+            tabBarIcon: ({ color, size }) => (
+              <MaterialCommunityIcons name="cog" color={color} size={size} />
+            ),
+          }}
+        />
+        <Drawer.Screen
+          name="db"
+          component={DbPage}
+          options={{ 
+            headerShown:  true,
+            initialRouteName: 'db',
+            tabBarLabel: 'DB',
             tabBarIcon: ({ color, size }) => (
               <MaterialCommunityIcons name="cog" color={color} size={size} />
             ),
