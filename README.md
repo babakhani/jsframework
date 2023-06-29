@@ -1,6 +1,4 @@
-# UiLab
-
-### JavaScript UI frameworks playground
+# JavaScript UI frameworks playground
 
 Its my playground to work with popular JavaScript UI frameworks.
 
